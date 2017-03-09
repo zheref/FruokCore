@@ -106,13 +106,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B2FF2311E720AD300ED9301 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2B2FF2321E720AE300ED9301 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BED03871E648F1500F932D2 /* FruokCore iOS */,
+				2BED03921E648F1500F932D2 /* FruokCore iOSTests */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2B2FF2331E720B0E00ED9301 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				2BED03AE1E648FFD00F932D2 /* FruokCore macOS */,
+				2BED03B91E648FFD00F932D2 /* FruokCore macOSTests */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
 		2BED037B1E648F1500F932D2 = {
 			isa = PBXGroup;
 			children = (
-				2BED03871E648F1500F932D2 /* FruokCore */,
-				2BED03921E648F1500F932D2 /* FruokCoreTests */,
-				2BED03AE1E648FFD00F932D2 /* FruokCore macOS */,
-				2BED03B91E648FFD00F932D2 /* FruokCore macOSTests */,
+				2B2FF2311E720AD300ED9301 /* Common */,
+				2B2FF2321E720AE300ED9301 /* iOS */,
+				2B2FF2331E720B0E00ED9301 /* macOS */,
 				2BED03861E648F1500F932D2 /* Products */,
 				EDC6BF7A7CAF2D1C0F942DFD /* Pods */,
 				C4B3827A4C768DB34145146B /* Frameworks */,
@@ -130,22 +154,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BED03871E648F1500F932D2 /* FruokCore */ = {
+		2BED03871E648F1500F932D2 /* FruokCore iOS */ = {
 			isa = PBXGroup;
 			children = (
 				2BED03881E648F1500F932D2 /* FruokCore.h */,
 				2BED03891E648F1500F932D2 /* Info.plist */,
 				2B2CD5AC1E65908D00031AF8 /* Project.swift */,
 			);
+			name = "FruokCore iOS";
 			path = FruokCore;
 			sourceTree = "<group>";
 		};
-		2BED03921E648F1500F932D2 /* FruokCoreTests */ = {
+		2BED03921E648F1500F932D2 /* FruokCore iOSTests */ = {
 			isa = PBXGroup;
 			children = (
 				2BED03931E648F1500F932D2 /* FruokCoreTests.swift */,
 				2BED03951E648F1500F932D2 /* Info.plist */,
 			);
+			name = "FruokCore iOSTests";
 			path = FruokCoreTests;
 			sourceTree = "<group>";
 		};
@@ -165,7 +191,7 @@
 				2BED03BC1E648FFD00F932D2 /* Info.plist */,
 			);
 			path = "FruokCore macOSTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		C4B3827A4C768DB34145146B /* Frameworks */ = {
 			isa = PBXGroup;
