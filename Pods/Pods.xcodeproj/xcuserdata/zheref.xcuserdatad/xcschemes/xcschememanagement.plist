@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AEXML-OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AEXML-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FruokCore macOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>70E89521D4F2F52D1E51D7F5475E37FD</key>
+		<key>669CA46DF4523EC81B60F895E60FBF73</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DF4E545DCC77B88A16F964747A7FF65</key>
+		<key>692C22F2E77525EECFFC59C364A6B8CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE4CD55539B1A55BC7B2FC7EEE22F4F6</key>
+		<key>6CCB393CAEBAB83636087A960BB3DC9D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E542F7C5FE7FB6344A690F425E9A7769</key>
+		<key>6D96D19731B5DD2FE46F12F73AA9EC04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8FB976F9C204CF8C86057DEC3957F3BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C8FA7F6F192F2D0AB2EE2C6C634C4C9E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

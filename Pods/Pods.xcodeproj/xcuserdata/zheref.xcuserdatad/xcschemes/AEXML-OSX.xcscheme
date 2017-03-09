@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6D96D19731B5DD2FE46F12F73AA9EC04'
-               BlueprintName = 'Pods-FruokCore macOSTests'
+               BlueprintIdentifier = '6CCB393CAEBAB83636087A960BB3DC9D'
+               BlueprintName = 'AEXML-OSX'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-FruokCore macOSTests.framework'>
+               BuildableName = 'AEXML-OSX.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
