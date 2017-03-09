@@ -7,11 +7,6 @@ target 'FruokCore' do
 
   # Pods for FruokCore
 
-  target 'FruokCore macOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
   target 'FruokCoreTests' do
     inherit! :search_paths
     # Pods for testing
