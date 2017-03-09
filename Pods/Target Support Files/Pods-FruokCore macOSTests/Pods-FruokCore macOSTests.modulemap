@@ -1,0 +1,6 @@
+framework module Pods_FruokCore_macOSTests {
+  umbrella header "Pods-FruokCore macOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
