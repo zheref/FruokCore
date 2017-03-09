@@ -11,6 +11,10 @@
 		2B2CD5AE1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
 		2B2CD5AF1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
 		2B2CD5B01E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
+		2B2FF2351E720BD900ED9301 /* XMLCompliantProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FF2341E720BD900ED9301 /* XMLCompliantProtocol.swift */; };
+		2B2FF2361E720BDE00ED9301 /* XMLCompliantProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FF2341E720BD900ED9301 /* XMLCompliantProtocol.swift */; };
+		2B2FF2371E720BE200ED9301 /* XMLCompliantProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FF2341E720BD900ED9301 /* XMLCompliantProtocol.swift */; };
+		2B2FF2381E720BE400ED9301 /* XMLCompliantProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2FF2341E720BD900ED9301 /* XMLCompliantProtocol.swift */; };
 		2BED038F1E648F1500F932D2 /* FruokCoreiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED03851E648F1500F932D2 /* FruokCoreiOS.framework */; };
 		2BED03941E648F1500F932D2 /* FruokCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED03931E648F1500F932D2 /* FruokCoreTests.swift */; };
 		2BED03961E648F1500F932D2 /* FruokCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BED03881E648F1500F932D2 /* FruokCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +48,7 @@
 		22C5B7CB11D9E249B8099C7E /* Pods_FruokCore_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokCore_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D2546C663AA4DFA232E0F5 /* Pods-FruokCore macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokCore macOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruokCore macOSTests/Pods-FruokCore macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B2CD5AC1E65908D00031AF8 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		2B2FF2341E720BD900ED9301 /* XMLCompliantProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = XMLCompliantProtocol.swift; path = "FruokCore Common/XMLCompliantProtocol.swift"; sourceTree = "<group>"; };
 		2BED03851E648F1500F932D2 /* FruokCoreiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokCoreiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BED03881E648F1500F932D2 /* FruokCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruokCore.h; sourceTree = "<group>"; };
 		2BED03891E648F1500F932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +114,7 @@
 		2B2FF2311E720AD300ED9301 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2B2FF2341E720BD900ED9301 /* XMLCompliantProtocol.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -567,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B2CD5AD1E65908D00031AF8 /* Project.swift in Sources */,
+				2B2FF2351E720BD900ED9301 /* XMLCompliantProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +581,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2FF2361E720BDE00ED9301 /* XMLCompliantProtocol.swift in Sources */,
 				2BED03941E648F1500F932D2 /* FruokCoreTests.swift in Sources */,
 				2B2CD5AE1E65908D00031AF8 /* Project.swift in Sources */,
 			);
@@ -584,6 +592,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B2CD5AF1E65908D00031AF8 /* Project.swift in Sources */,
+				2B2FF2371E720BE200ED9301 /* XMLCompliantProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +600,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2FF2381E720BE400ED9301 /* XMLCompliantProtocol.swift in Sources */,
 				2BED03BB1E648FFD00F932D2 /* FruokCore_macOSTests.swift in Sources */,
 				2B2CD5B01E65908D00031AF8 /* Project.swift in Sources */,
 			);
