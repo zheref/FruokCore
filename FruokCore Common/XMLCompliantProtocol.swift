@@ -7,3 +7,10 @@
 //
 
 import Foundation
+import AEXML
+
+public protocol XMLCompliantProtocol {
+    
+    public var xmlDocumentEquivalent: AEXMLDocument
+    
+}
