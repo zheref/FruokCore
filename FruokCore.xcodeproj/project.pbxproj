@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B2CD5AD1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
+		2B2CD5AE1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
+		2B2CD5AF1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
+		2B2CD5B01E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
 		2BED038F1E648F1500F932D2 /* FruokCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED03851E648F1500F932D2 /* FruokCore.framework */; };
 		2BED03941E648F1500F932D2 /* FruokCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED03931E648F1500F932D2 /* FruokCoreTests.swift */; };
 		2BED03961E648F1500F932D2 /* FruokCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BED03881E648F1500F932D2 /* FruokCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B2CD5AC1E65908D00031AF8 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		2BED03851E648F1500F932D2 /* FruokCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BED03881E648F1500F932D2 /* FruokCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruokCore.h; sourceTree = "<group>"; };
 		2BED03891E648F1500F932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +113,7 @@
 			children = (
 				2BED03881E648F1500F932D2 /* FruokCore.h */,
 				2BED03891E648F1500F932D2 /* Info.plist */,
+				2B2CD5AC1E65908D00031AF8 /* Project.swift */,
 			);
 			path = FruokCore;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 					2BED03841E648F1500F932D2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AQUE4FE98B;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					2BED038D1E648F1500F932D2 = {
@@ -256,6 +263,7 @@
 					2BED03AC1E648FFD00F932D2 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = AQUE4FE98B;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					2BED03B41E648FFD00F932D2 = {
@@ -321,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2CD5AD1E65908D00031AF8 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BED03941E648F1500F932D2 /* FruokCoreTests.swift in Sources */,
+				2B2CD5AE1E65908D00031AF8 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2CD5AF1E65908D00031AF8 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BED03BB1E648FFD00F932D2 /* FruokCore_macOSTests.swift in Sources */,
+				2B2CD5B01E65908D00031AF8 /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +477,7 @@
 		2BED039A1E648F1500F932D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
@@ -477,6 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.zheref.FruokCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -484,6 +498,7 @@
 		2BED039B1E648F1500F932D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
@@ -503,6 +518,7 @@
 		2BED039D1E648F1500F932D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
 				INFOPLIST_FILE = FruokCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -515,6 +531,7 @@
 		2BED039E1E648F1500F932D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
 				INFOPLIST_FILE = FruokCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -527,6 +544,7 @@
 		2BED03BE1E648FFD00F932D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -543,6 +561,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -550,6 +569,7 @@
 		2BED03BF1E648FFD00F932D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -573,6 +593,7 @@
 		2BED03C01E648FFD00F932D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
@@ -589,6 +610,7 @@
 		2BED03C11E648FFD00F932D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AQUE4FE98B;
@@ -639,6 +661,7 @@
 				2BED03BF1E648FFD00F932D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BED03C31E648FFD00F932D2 /* Build configuration list for PBXNativeTarget "FruokCore macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +670,7 @@
 				2BED03C11E648FFD00F932D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
