@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2BED03841E648F1500F932D2"
-               BuildableName = "FruokCore.framework"
-               BlueprintName = "FruokCore"
+               BuildableName = "FruokCoreiOS.framework"
+               BlueprintName = "FruokCoreiOS"
                ReferencedContainer = "container:FruokCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2BED03841E648F1500F932D2"
-            BuildableName = "FruokCore.framework"
-            BlueprintName = "FruokCore"
+            BuildableName = "FruokCoreiOS.framework"
+            BlueprintName = "FruokCoreiOS"
             ReferencedContainer = "container:FruokCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2BED03841E648F1500F932D2"
-            BuildableName = "FruokCore.framework"
-            BlueprintName = "FruokCore"
+            BuildableName = "FruokCoreiOS.framework"
+            BlueprintName = "FruokCoreiOS"
             ReferencedContainer = "container:FruokCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2BED03841E648F1500F932D2"
-            BuildableName = "FruokCore.framework"
-            BlueprintName = "FruokCore"
+            BuildableName = "FruokCoreiOS.framework"
+            BlueprintName = "FruokCoreiOS"
             ReferencedContainer = "container:FruokCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -11,10 +11,10 @@
 		2B2CD5AE1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
 		2B2CD5AF1E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
 		2B2CD5B01E65908D00031AF8 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2CD5AC1E65908D00031AF8 /* Project.swift */; };
-		2BED038F1E648F1500F932D2 /* FruokCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED03851E648F1500F932D2 /* FruokCore.framework */; };
+		2BED038F1E648F1500F932D2 /* FruokCoreiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED03851E648F1500F932D2 /* FruokCoreiOS.framework */; };
 		2BED03941E648F1500F932D2 /* FruokCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED03931E648F1500F932D2 /* FruokCoreTests.swift */; };
 		2BED03961E648F1500F932D2 /* FruokCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BED03881E648F1500F932D2 /* FruokCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BED03B61E648FFD00F932D2 /* FruokCore macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED03AD1E648FFD00F932D2 /* FruokCore macOS.framework */; };
+		2BED03B61E648FFD00F932D2 /* FruokCoremacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BED03AD1E648FFD00F932D2 /* FruokCoremacOS.framework */; };
 		2BED03BB1E648FFD00F932D2 /* FruokCore_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BED03BA1E648FFD00F932D2 /* FruokCore_macOSTests.swift */; };
 		2BED03BD1E648FFD00F932D2 /* FruokCore macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BED03AF1E648FFD00F932D2 /* FruokCore macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3330CAA8AEBA2699079FC8AC /* Pods_FruokCore_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9F52DC9D2119EA12D9B975 /* Pods_FruokCore_macOS.framework */; };
@@ -44,13 +44,13 @@
 		22C5B7CB11D9E249B8099C7E /* Pods_FruokCore_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FruokCore_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D2546C663AA4DFA232E0F5 /* Pods-FruokCore macOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FruokCore macOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FruokCore macOSTests/Pods-FruokCore macOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B2CD5AC1E65908D00031AF8 /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
-		2BED03851E648F1500F932D2 /* FruokCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BED03851E648F1500F932D2 /* FruokCoreiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokCoreiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BED03881E648F1500F932D2 /* FruokCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruokCore.h; sourceTree = "<group>"; };
 		2BED03891E648F1500F932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BED038E1E648F1500F932D2 /* FruokCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruokCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BED03931E648F1500F932D2 /* FruokCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruokCoreTests.swift; sourceTree = "<group>"; };
 		2BED03951E648F1500F932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BED03AD1E648FFD00F932D2 /* FruokCore macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "FruokCore macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BED03AD1E648FFD00F932D2 /* FruokCoremacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FruokCoremacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BED03AF1E648FFD00F932D2 /* FruokCore macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FruokCore macOS.h"; sourceTree = "<group>"; };
 		2BED03B01E648FFD00F932D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BED03B51E648FFD00F932D2 /* FruokCore macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FruokCore macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BED038F1E648F1500F932D2 /* FruokCore.framework in Frameworks */,
+				2BED038F1E648F1500F932D2 /* FruokCoreiOS.framework in Frameworks */,
 				7FF662BC2AE65FAAB6B4BD1D /* Pods_FruokCoreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BED03B61E648FFD00F932D2 /* FruokCore macOS.framework in Frameworks */,
+				2BED03B61E648FFD00F932D2 /* FruokCoremacOS.framework in Frameworks */,
 				D4AB914BEE637BA85836BA51 /* Pods_FruokCore_macOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +146,9 @@
 		2BED03861E648F1500F932D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BED03851E648F1500F932D2 /* FruokCore.framework */,
+				2BED03851E648F1500F932D2 /* FruokCoreiOS.framework */,
 				2BED038E1E648F1500F932D2 /* FruokCoreTests.xctest */,
-				2BED03AD1E648FFD00F932D2 /* FruokCore macOS.framework */,
+				2BED03AD1E648FFD00F932D2 /* FruokCoremacOS.framework */,
 				2BED03B51E648FFD00F932D2 /* FruokCore macOSTests.xctest */,
 			);
 			name = Products;
@@ -241,9 +241,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2BED03841E648F1500F932D2 /* FruokCore */ = {
+		2BED03841E648F1500F932D2 /* FruokCoreiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BED03991E648F1500F932D2 /* Build configuration list for PBXNativeTarget "FruokCore" */;
+			buildConfigurationList = 2BED03991E648F1500F932D2 /* Build configuration list for PBXNativeTarget "FruokCoreiOS" */;
 			buildPhases = (
 				564D4AFA20DB001C1951277C /* [CP] Check Pods Manifest.lock */,
 				2BED03801E648F1500F932D2 /* Sources */,
@@ -256,9 +256,9 @@
 			);
 			dependencies = (
 			);
-			name = FruokCore;
+			name = FruokCoreiOS;
 			productName = FruokCore;
-			productReference = 2BED03851E648F1500F932D2 /* FruokCore.framework */;
+			productReference = 2BED03851E648F1500F932D2 /* FruokCoreiOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2BED038D1E648F1500F932D2 /* FruokCoreTests */ = {
@@ -282,9 +282,9 @@
 			productReference = 2BED038E1E648F1500F932D2 /* FruokCoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2BED03AC1E648FFD00F932D2 /* FruokCore macOS */ = {
+		2BED03AC1E648FFD00F932D2 /* FruokCoremacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BED03C21E648FFD00F932D2 /* Build configuration list for PBXNativeTarget "FruokCore macOS" */;
+			buildConfigurationList = 2BED03C21E648FFD00F932D2 /* Build configuration list for PBXNativeTarget "FruokCoremacOS" */;
 			buildPhases = (
 				4C114E3616AA209B7AFA36DE /* [CP] Check Pods Manifest.lock */,
 				2BED03A81E648FFD00F932D2 /* Sources */,
@@ -297,9 +297,9 @@
 			);
 			dependencies = (
 			);
-			name = "FruokCore macOS";
+			name = FruokCoremacOS;
 			productName = "FruokCore macOS";
-			productReference = 2BED03AD1E648FFD00F932D2 /* FruokCore macOS.framework */;
+			productReference = 2BED03AD1E648FFD00F932D2 /* FruokCoremacOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2BED03B41E648FFD00F932D2 /* FruokCore macOSTests */ = {
@@ -369,9 +369,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BED03841E648F1500F932D2 /* FruokCore */,
+				2BED03841E648F1500F932D2 /* FruokCoreiOS */,
 				2BED038D1E648F1500F932D2 /* FruokCoreTests */,
-				2BED03AC1E648FFD00F932D2 /* FruokCore macOS */,
+				2BED03AC1E648FFD00F932D2 /* FruokCoremacOS */,
 				2BED03B41E648FFD00F932D2 /* FruokCore macOSTests */,
 			);
 		};
@@ -601,12 +601,12 @@
 /* Begin PBXTargetDependency section */
 		2BED03911E648F1500F932D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BED03841E648F1500F932D2 /* FruokCore */;
+			target = 2BED03841E648F1500F932D2 /* FruokCoreiOS */;
 			targetProxy = 2BED03901E648F1500F932D2 /* PBXContainerItemProxy */;
 		};
 		2BED03B81E648FFD00F932D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BED03AC1E648FFD00F932D2 /* FruokCore macOS */;
+			target = 2BED03AC1E648FFD00F932D2 /* FruokCoremacOS */;
 			targetProxy = 2BED03B71E648FFD00F932D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BED03991E648F1500F932D2 /* Build configuration list for PBXNativeTarget "FruokCore" */ = {
+		2BED03991E648F1500F932D2 /* Build configuration list for PBXNativeTarget "FruokCoreiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BED039A1E648F1500F932D2 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BED03C21E648FFD00F932D2 /* Build configuration list for PBXNativeTarget "FruokCore macOS" */ = {
+		2BED03C21E648FFD00F932D2 /* Build configuration list for PBXNativeTarget "FruokCoremacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BED03BE1E648FFD00F932D2 /* Debug */,
